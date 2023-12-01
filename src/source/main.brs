@@ -7,6 +7,10 @@ sub main()
     screen.CreateScene("MainScene")
     screen.show()
 
+    input = getInputLines("pkg:/input/day1.txt")
+    day1_1(input)
+    day1_2(input)
+
     while(true)
         msg = wait(0, m.port)
         msgType = type(msg)
@@ -17,3 +21,7 @@ sub main()
         end if
     end while
 end sub
+
+function getInputLines(path as string) as object
+    return ReadAsciiFile(path).Tokenize(chr(10))
+end function
