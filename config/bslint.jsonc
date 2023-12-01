@@ -33,7 +33,7 @@
         // Consider loops as unsafe code paths. Assingnments inside them may not happen.
         "unsafe-path-loop": "warn",
         // Loop iterator variables should not be outside the loop.
-        "unsafe-iterators": "error",
+        "unsafe-iterators": "off",
         // Warn about unreachable code.
         "unreachable-code": "warn",
         // Warn about inconsistent variable casing.

@@ -9,7 +9,7 @@
         "source/**/*",
         "components/**/*",
         "images/**/*",
-        "fonts/**/*",
+        "input/**/*",
         "manifest"
     ],
     "stagingFolderPath": "dist/build",

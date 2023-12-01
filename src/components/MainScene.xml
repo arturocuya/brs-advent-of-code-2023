@@ -2,6 +2,6 @@
 <component name="MainScene" extends="Scene">
     <script type="text/brightscript" uri="MainScene.brs" />
     <children>
-        <Label id="welcome" />
+        <Label id="welcome" translation="[200,200]"/>
     </children>
 </component>
