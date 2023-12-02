@@ -7,6 +7,7 @@ sub main()
     screen.CreateScene("MainScene")
     screen.show()
 
+    ' to split by newlines, we use chr(10)
     input = getInputLines("pkg:/input/day1.txt")
     day1_1(input)
     day1_2(input)
