@@ -11,6 +11,10 @@ sub main()
     day1_1(input)
     day1_2(input)
 
+    input = getInputLines("pkg:/input/day2.txt")
+    day2_1(input)
+    day2_2(input)
+
     while(true)
         msg = wait(0, m.port)
         msgType = type(msg)
