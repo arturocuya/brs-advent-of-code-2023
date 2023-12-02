@@ -9,7 +9,7 @@
             "stopDebuggerOnAppExit": false,
             "rootDir": "${workspaceFolder}/src",
             "name": "Launch",
-            "enableDebugProtocol": true
+            "enableDebugProtocol": false
         }
     ]
 }
